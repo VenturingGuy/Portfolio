@@ -1,21 +1,25 @@
 body {
-    background-color: #c1b492;
+    background-color: #dbd4c1;
 }
 
 h1 {
     color: #756e5d;
     text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
 }
 
 h2 {
     color: #756e5d;
     text-align: center;
+    font-weight: normal;
 }
 
 h3
 {
     color: #756e5d;
     text-align: center;
+    font-weight: normal;
 }
 
 p {
@@ -38,11 +42,16 @@ ul {
     padding-left: 0;
     list-style-type: none;
     list-style-position: outside;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
 }
 
 li {
     color: #666678;
     text-align: center;
+    display: inline;
+    margin: 5px;
 }
 
 a:link {
