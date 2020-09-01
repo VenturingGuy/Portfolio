@@ -1,12 +1,14 @@
 body {
     background-color:#878091;
+    margin: 0;
 }
 
 .navbar {
     background-color: #dbd4c1;
     text-align: center;
-    width: 100%;
-    height: auto;
+    width: auto;
+    padding: 8px 16px;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -15,16 +17,23 @@ body {
     padding: 20px 20px;
 }
 
+.navbar a:hover {
+    background-color: #b99f56;
+    color: #e7e7e7;
+}
+
 h1 {
-    color: #666678;
+    color: #e3e3ff;
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 h2 {
     color: #756e5d;
     text-align: left;
     margin-left: 40px;
+    font-weight: 400;
     font-weight: normal;
 }
 
@@ -47,8 +56,7 @@ h3
     margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #666678
 }
 
@@ -58,6 +66,8 @@ h3
     margin-left: 80px;
     margin-right: 80px;
     line-height: 1.5;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .preview {
@@ -68,7 +78,7 @@ h3
     margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow: hidden;
     color: #666678
 }
@@ -128,7 +138,7 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     color: #666678
 }
