@@ -24,6 +24,8 @@ body {
     font-size: 20px;
     font-weight: 400;
     padding: 20px 20px;
+    float: left;
+    overflow: hidden;
 }
 
 .navbar a:hover {
@@ -62,7 +64,7 @@ h3
     padding-bottom: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #666678;
-    box-shadow: 5px 10px #666678;
+    box-shadow: -5px 10px #666678;
 
 }
 
@@ -95,7 +97,7 @@ h3
     border-radius: 8px;
     width: 45%;
     box-shadow: 5px 10px #666678;
-    padding: 10px;
+    padding: 5px;
     float: left;
 }
 
@@ -103,7 +105,7 @@ h3
     background-color: #cec7d6;
     border: 2px solid #a19e97;
     border-radius: 8px;
-    box-shadow: 5px 10px #666678;
+    box-shadow: -5px 10px #666678;
     width: 45%;
     padding: 10px;
     float: right;
@@ -165,7 +167,6 @@ li {
     color: #666678;
     text-align: center;
     display: inline;
-    margin: 5px;
 }
 
 a:link {
