@@ -9,23 +9,34 @@ body {
     margin: 0;
 }
 
-.navbar {
+nav, .navbar1, .navbar2 {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #dbd4c1;
-    text-align: left;
     width: auto;
     padding: 8px 16px;
     overflow: hidden;
-    position: static;
 }
 
-.navbar a {
-    text-align: center;
+.navbar1 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 400;
     padding: 20px 20px;
-    float: left;
     overflow: hidden;
+}
+
+.navbar2 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 0;
+    text-align: right;
+    margin: 0 auto;
 }
 
 .navbar a:hover {
@@ -153,14 +164,6 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     color: #666678
-}
-.navbar ul {
-    padding-left: 0;
-    list-style-type: none;
-    list-style-position: outside;
-    display: table;
-    text-align: right;
-    margin: 0 auto;
 }
 
 li {
