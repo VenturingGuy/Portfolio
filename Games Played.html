@@ -47,10 +47,26 @@
 		#Nier-Automata {
 			background-color: #cfc9be;
 			font-size: 1.75em;
+			overflow-x: hidden;
+			text-align: center;
 		}
 
-		#Nier-Automata h2, #Nier-Automata p {
-			text-shadow: #40444c;
+		#Nier-Automata h2, #Nier-Automata h3, #Nier-Automata p {
+			text-shadow: 0 0 50px #40444c;
+		}
+
+		#Nier-Automata ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		#Nier-Automata > h3 {
+			text-align: center;
+			margin: 1em;
+			font-size: 1.25em;
 		}
 
 		#bloodstained_cotm {
@@ -172,6 +188,25 @@
 							carrying on the fantastic music, story, and atmosphere. A must play.</p>
 					</div>
 				</div>
+				<h3>Playable Characters</h3>
+				<h3>Warning! Spoilers follow.</h3>
+					<div id="spoiler" class="spoiler" style="display:none">
+						<ul>
+							<li class="card">
+								<h3>2B</h3>
+							</li>
+							<li class="card">
+								<h3>9S</h3>
+							</li>
+							<li class="card">
+								<h3>A2</h3>
+							</li>
+						</ul>
+					</div>
+					<button title="I'm okay with this." type="button" 
+					onclick="if(document.getElementById('spoiler') .style.display=='none') 
+					{document.getElementById('spoiler') .style.display=''}
+					else{document.getElementById('spoiler') .style.display='none'}">I'm okay with this.</button>
 			</section>
 
 			<section id="bloodstained_cotm">
