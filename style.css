@@ -70,7 +70,9 @@ nav a:link, nav a:visited {
     display: block;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 h2 {
