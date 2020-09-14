@@ -26,7 +26,7 @@ nav {
 	padding: 1em;
 	color: #849ba2;
     display: flex;
-    overflow: hidden;
+    overflow: auto;
 }
 
 nav a:link, nav a:visited {
@@ -43,6 +43,34 @@ nav a:link, nav a:visited {
     background-color: #007f86;
     color: #faf8ff;
 }
+
+.dropbtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: inherit;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: #d2d5db;
+    color: #faf8ff;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 
 h2 {
