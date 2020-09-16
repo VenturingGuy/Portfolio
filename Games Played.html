@@ -4,6 +4,7 @@
 		<title>Games I've Played This Year</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 		<style>
 
 		#banner {
@@ -13,6 +14,8 @@
 		}
 
 		#Dark_Souls {
+			background-image: url("images/ds-wallpaper.jpg");
+			background-size: cover;
 			background-color: #3fa8c1;
 			font-size: 1.75em;
 		}
@@ -24,7 +27,10 @@
 		}
 
 		#Dark_Souls h2, #Dark_Souls p {
+			color: #b0cab8;
 			text-shadow: 0 0 20px #05242c;
+			font-family: 'EB Garamond', serif;
+			font-weight: normal;
 		}
 
 		#Hollow_Knight {
@@ -151,12 +157,12 @@
 			</section>
 			
 			<section id="Dark_Souls">
-				<h2>Dark Souls (Remaster, 2018; Original, 2011)</h2>
+				<h2 data-aos="fade-right">Dark Souls (Remaster, 2018; Original, 2011)</h2>
 				<div class="display">
-					<div class="left-display">
+					<div class="left-display" data-aos="fade-up">
 						<img src="images/dark-souls.jpg">
 					</div>
-					<div class="right-display">
+					<div class="right-display" data-aos="fade-left">
 					<p>
 						What can I honestly say about this game that hasn't already been said? I enjoyed it a lot, and 
 						enjoyed playing it with friends. The first game I played this year, and it's what kicked off my 
@@ -339,7 +345,10 @@
 				<p>For business purposes, you may contact me at LVentura335@Gmail.com</p>
 			</footer>
 		</main>
-		
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 	
 </html>
